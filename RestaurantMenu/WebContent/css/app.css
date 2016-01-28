@@ -1,0 +1,294 @@
+.container {
+	width:80%;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:15px;
+	background-color:rgba(255,255,255,0.5);
+}
+
+header {	
+	background-color:#00C5CD;
+	width:100%;
+	height:80px;
+}
+
+
+header a {
+	color:#fff;
+	text-decoration:none;
+}
+
+header a:hover {
+	color:yellow;
+}
+
+header ul {
+	display:inline;
+	list-style-type:none;
+}
+
+header ul li {
+	float:left;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:1.3em;
+	padding:4px 4px 4px 4px;
+	margin:0% 0% 0% 9%;
+	margin-top: 25px;
+}
+
+header .logo {
+	font-size:3em;
+	font-family: 'Lobster', cursive;
+	float:left;
+	padding:0px 0px 10px 15px;
+}
+
+header .logo a:hover {
+	color:#fff;
+}
+
+.list,.edit {
+	width:100%;
+	margin:0 auto;
+}
+
+.list td {
+	width:25%;
+	text-align:center;
+}
+
+.edit td {
+	width:20%;
+	text-align:center;
+}
+
+.name {
+	text-align:left;
+}
+
+.error {
+	text-align:center;
+	color:#9C9C9C;
+	font-size:3em;
+}
+
+.error img {
+	width:50%;
+	height:50%
+}
+
+figure {
+	margin:0px;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#cuisines {
+	margin: 0.2em auto;
+	padding-left:0px;
+	max-width: 1106px;
+	text-align: center;
+}
+
+#cuisines li {
+	display: inline-block;
+	margin: 0.2em;
+	width: 289px;
+	padding:0px 0px 0px 0px;
+}
+
+#cuisines img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+#cuisines figure {
+	height: 163px;
+	overflow: hidden;
+	position: relative;
+	width: 289px;
+}
+
+#cuisines figcaption {
+	background: rgba(0,0,0,0.6);
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+
+#cuisines figcaption p {
+	display: table-cell;
+	font-size: 1.5em;
+	position: relative;
+	width: 289px;
+	vertical-align: middle;
+}
+
+#cuisines li:hover figcaption {
+	opacity:1;
+}
+
+.container .welcome {
+	font-size:1.3em;
+	font-family: 'Lobster', cursive;
+	color:#000;
+	margin-left:3%;
+}
+
+footer {
+	float:right;
+	width:100%;
+	color:#fff;
+	font-size:2em;
+	height:40px;
+	background-color:#00C5CD;
+	clear:both;
+}
+
+.icons {
+	width:100%;
+	text-align:center;	
+}
+
+.icons i {
+	width:10%;
+}
+
+html, body {
+	height:100%;
+}
+body {
+	background-color:#F5F5F5;
+}
+
+form {
+	margin-left:auto;
+	margin-right:auto;
+	max-width:80%;
+	background:#F7F7F7;
+	padding:10px 10px 10px 10px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	color:#858585;
+	border:1px solid #E4E4E4;
+}
+
+form h2 {
+	padding:0px 0px 0px 5px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	display: block;
+}
+
+form input[type="text"], form textarea, form select {
+	border:1px solid #E4E4E4;
+	color:#858585;
+	height:30px;
+	margin: 16px 6px 2px 0px;
+	outline: 0 none;
+	padding: 3px 3px 3px 3px;
+	width: 90%;
+	font-size:1em;
+	line-height:1.3em;
+	box-shadow:inset 0px 1px 2px #ECECEC;
+	-moz-box-shadow: inset 0px 1px 2px #ECECEC;
+	-webkit-box-shadow: inset 0px 1px 2px #ECECEC;
+}
+
+form select {
+	/* appearance: none;
+	-webkit-appearance:none;
+	-moz-appearance:none; */
+	text-indent:0.01px;
+	text-overflow:'';
+	height:30px;
+	width:20%;
+	line-height:25px;
+}
+
+form input[type="submit"] {
+	background:#00C5CD;
+	border: none;
+	padding: 5px 5px 5px 5px;
+	margin-top:10px;
+	color: #fff;
+	box-shadow: 1px 1px 3px #ECECEC;
+	border-radius: 3px;
+	text-shadow: 1px 1px 1px #ECECEC;
+}
+
+form input[type="submit"]:hover     {
+	color:yellow;
+}
+
+td form {
+	background-color: #FAFAFA;
+	border: none;
+	padding:0px 0px 0px 0px;
+}
+
+td {
+	color:#3B3B3B;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	padding-top:10px;
+}
+
+td a {
+	color:#3B3B3B;
+	text-decoration:none;	
+}
+
+td a:hover {
+	color:yellow;
+}
+
+.address {
+	margin-left:50px;
+	color:#3B3B3B;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	padding-bottom: 50px;
+}
+
+h1 {
+	margin-left:25px;
+	color:#3B3B3B;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 3em;
+}
+
+.menu {
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+th {
+	color:#3B3B3B;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5em;	
+}
+
+.price {
+	padding-left: 30px;
+}
+
+.description {
+	padding-left:25px;
+	color:#aaa;
+}
+
+.clear {
+	clear:both;
+}
